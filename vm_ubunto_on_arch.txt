@@ -1,0 +1,12 @@
+# How to Install an Ubuntu VM on Arch Linux (Hyprland)
+
+A step-by-step guide. Each command is explained. Follow in order.
+
+---
+
+## Phase A — Host Setup (on Arch)
+
+### A1. Install packages
+
+```bash
+sudo pacman -S qemu-full libvirt virt-manager edk2-ovmf dnsmasq swtpm
